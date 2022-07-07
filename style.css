@@ -13,6 +13,7 @@ body {
 }
 
 .header {
+    background: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,6 +47,9 @@ a {
 
 .first {
     background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .second {
     background: whitesmoke;
@@ -53,4 +57,43 @@ a {
 
 .third {
     background: #E5E7EB;
+}
+
+.item {
+    height:250px;
+    width:551px;
+   
+    
+}
+
+.item1 {
+    display:flex;
+    flex-direction: column;
+}
+.item-header {
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8
+}
+
+p {
+    font-size: 18px;
+    color:#E5E7EB
+}
+
+button {
+    padding:5px 23px;
+    border-radius: 5px;
+    background: #3882F6;
+    border: none;
+    color:#F9FAF8;
+    font-weight: 700;
+}
+
+.item2 {
+    background:#6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
 }
