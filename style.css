@@ -65,6 +65,11 @@ a {
     justify-content: center;
     align-items: center;
 }
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .item {
     height:250px;
@@ -153,4 +158,45 @@ img {
     justify-content: flex-end;
     font-size:26px;
     font-weight: 700;
+}
+.popup {
+    height: 200px;
+    width: 1000px;
+    background: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+   
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.popup-header{
+    font-size: 26px;
+    font-weight: 700;
+    color:#E5E7EB;
+    padding-bottom: 0;
+}
+
+.under {
+   padding: 0;
+   margin: 0;
+}
+
+.right button {
+    border:4px solid #F9FAF8;
+    padding: 4px 30px;
+    color:#F9FAF8
 }
